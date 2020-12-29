@@ -6,6 +6,6 @@
 So you will be reading a paraghrap about me to answer the questions.
 
 
-[Click here to read the paraghrap](index.html)
+[Click here to read the paraghrap](/HTML/index.html)
 
 ###  AboutmeQuiz1
