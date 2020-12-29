@@ -2,7 +2,7 @@
 var userName = prompt("What is your name?")
 alert("Welcome " + userName + " I will do a quiz for you about me.");
 
-var ready = prompt('I will be asking you 5 questions about me, are you ready for this play? ;) (yes/no)'); 
+var ready = prompt('I will be asking you 5 questions about me, are you ready for this play? ;) Type yes to continue.'); 
 // console.log(ready.toLowerCase());
 // console.log(ready.toUpperCase());
 
@@ -18,7 +18,7 @@ if (ready.toLocaleLowerCase() === "yes"){
 
 //--------------firstQuestion------------
 
-var firstQuestion = prompt('Did I graduate from University of Jordan? (yes/no)'); 
+var firstQuestion = prompt('Did I graduate from University of Jordan? (Yes/No)'); 
 // console.log(firstQuestion.toLowerCase());
 // console.log(firstQuestion.toUpperCase());
 if (firstQuestion.toLocaleLowerCase() === "yes"){
@@ -32,7 +32,7 @@ else if (firstQuestion.toLocaleLowerCase() === "no") {
 
 //------------secondQuestion--------------
 
-var secondQuestion = prompt('Do you think I like soccer? (yes/no)'); 
+var secondQuestion = prompt('Do you think I like soccer? (Yes/No)'); 
 // console.log(secondQuestion.toLowerCase());
 // console.log(secondQuestion.toUpperCase());
 if (secondQuestion.toLocaleLowerCase() === "yes"){
@@ -44,7 +44,7 @@ else if (secondQuestion.toLocaleLowerCase() === "no") {
 
 //-------------thirdQuestion-------------
 
-var thirdQuestion = prompt('Do you think I am addicted to coffee? (yes/no)'); 
+var thirdQuestion = prompt('Do you think I am addicted to coffee? (Yes/No)'); 
 // console.log(thirdQuestion.toLowerCase());
 // console.log(thirdQuestion.toUpperCase());
 if (thirdQuestion.toLocaleLowerCase() === "yes"){
@@ -56,7 +56,7 @@ else if (thirdQuestion.toLocaleLowerCase() === "no") {
 
 // //--------------forthQuestion------------
 
-var forthQuestion = prompt('Do I like seafood? (yes/no)'); 
+var forthQuestion = prompt('Do I like seafood? (Yes/No)'); 
 // console.log(forthQuestion.toLowerCase());
 // console.log(forthQuestion.toUpperCase());
 
@@ -69,7 +69,7 @@ else if (forthQuestion.toLocaleLowerCase() === "no") {
 
 //-------------fifthQuestion-------------
 
-var fifthQuestion = prompt('Do you think I play fifa? (yes/no)'); 
+var fifthQuestion = prompt('Do you think I play fifa? (Yes/No)'); 
 // console.log(fifthQuestion.toLowerCase());
 // console.log(fifthQuestion.toUpperCase());
 

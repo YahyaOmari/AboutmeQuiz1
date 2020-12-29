@@ -1,0 +1,23 @@
+/* body{
+    background-color: rgba(7, 226, 255, 0.486);
+} */
+
+h1 {
+    font-size:large;
+    font-weight: bolder;
+}
+h3{
+    font-size: large;
+    font-style: initial;
+}
+ol{
+    list-style-type: decimal; 
+    padding: 25px;
+    border: green solid 15px;
+
+}
+ul{
+    list-style-type:circle;
+    padding: 25px;
+    border: black solid 15px;
+}
