@@ -24,7 +24,7 @@ var firstQuestion = prompt('Did I graduate from University of Jordan? (Yes/No)')
 // console.log(firstQuestion.toUpperCase());
 if (firstQuestion.toLocaleLowerCase() === "yes"){
     alert("Yes, you are right");
-    userScore += 1;
+    userScore ++;
 }
 else if (firstQuestion.toLocaleLowerCase() === "no") {
         alert("Your answer is wrong.");
@@ -39,7 +39,7 @@ var secondQuestion = prompt('Do you think I like soccer? (Yes/No)');
 // console.log(secondQuestion.toUpperCase());
 if (secondQuestion.toLocaleLowerCase() === "yes"){
     alert("Yes, and I support Manchester United");
-    userScore += 1;
+    userScore ++;
 }
 else if (secondQuestion.toLocaleLowerCase() === "no") {
         alert("Your answer is wrong.");
@@ -52,7 +52,7 @@ var thirdQuestion = prompt('Do you think I am addicted to coffee? (Yes/No)');
 // console.log(thirdQuestion.toUpperCase());
 if (thirdQuestion.toLocaleLowerCase() === "yes"){
     alert("Yes, I drink around 4 mugs daily");
-    userScore += 1;
+    userScore ++;
 }
 else if (thirdQuestion.toLocaleLowerCase() === "no") {
         alert("Your answer is wrong.");
@@ -69,7 +69,7 @@ if (forthQuestion.toLocaleLowerCase() === "yes"){
 }
 else if (forthQuestion.toLocaleLowerCase() === "no") {
         alert("Yeah I don't eat it");
-        userScore += 1;
+        userScore ++;
 }
 
 //-------------fifthQuestion-------------
@@ -80,14 +80,14 @@ var fifthQuestion = prompt('Do you think I play fifa? (Yes/No)');
 
 if (fifthQuestion.toLocaleLowerCase() === "yes"){
     alert("Yes, I play fifa.");
-    userScore += 1;
+    userScore ++;
 }
 else if (fifthQuestion.toLocaleLowerCase() === "no") {
         alert("Your answer is wrong.");
 }
 
 
-//-------------sixthQuestion-------------
+// //-------------sixthQuestion-------------
 
 
 function sixthQuestion (){
@@ -104,7 +104,7 @@ function sixthQuestion (){
         } else if (guessNumber6==correctAnswer6){
             alert("Your answer is correct, good job.");
             // console.log("Your answer is correct, good job");
-            userScore += 1;
+            userScore ++;
             break;
         }
     }
@@ -126,18 +126,27 @@ function seventhQuestion(){
             if(guessNumber7 === correctAnswer7[j]){
                 alert("You guessed right ;) good job.");
                 // console.log("You guessed right ;) good job.");
-                userScore += 1;
+                userScore ++;
+                i=6;
+                break;
             }
+            
         }
-        break;
+        if (i !==6)
+        {
+            alert('Sorry wrong answer, try again.');
+            // console.log("Sorry wrong answer, try again.");
+
+        }
     } 
     alert("The correct answers are: " + correctAnswer7)
     // console.log("The correct answers are: " + correctAnswer7");
 }
+
 sixthQuestion();
 seventhQuestion();
 
-alert("Your final score is " + userScore)
+alert("Good Job!... You got " + userScore + " correct answers!")
 // console.log("Your final score is " + userScore");
 alert("Thank you for your time " + userName + ".");
 // console.log("Thank you for your time " + userName + ".");
