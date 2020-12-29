@@ -79,3 +79,7 @@ if (fifthQuestion.toLocaleLowerCase() === "yes"){
 else if (fifthQuestion.toLocaleLowerCase() === "no") {
         alert("Your answer is wrong.");
 }
+
+alert("Thank you for your time " + userName + ".");
+//-------------fifthQuestion-------------
+
