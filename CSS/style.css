@@ -2,6 +2,17 @@
     background-color: rgba(7, 226, 255, 0.486);
 } */
 
+header,main{
+    background-color: rgb(4, 102, 102);
+    padding: 35px;
+}
+nav{
+    background-color: maroon;
+    padding: 45px;
+}
+body {
+    background-color: rgb(111, 255, 97);
+}
 h1 {
     font-size:large;
     font-weight: bolder;
@@ -12,12 +23,18 @@ h3{
 }
 ol{
     list-style-type: decimal; 
-    padding: 25px;
-    border: green solid 15px;
+    padding: 35px;
+    border: rgb(0, 0, 46) solid 15px;
 
 }
 ul{
     list-style-type:circle;
     padding: 25px;
     border: black solid 15px;
+}
+a:hover{
+    
+    color: rgb(255, 0, 0);  
+    font-weight: bolder;
+
 }
